@@ -32,7 +32,7 @@ const LoginPage = () => {
     setCookie('token', 'tokenValue', { path: '/' });
 
     setAuthTokens(Cookies?.get('token'))
-        history("/");
+        history("/Dashboard/");
     console.log("cherrab")
     /*
     try {

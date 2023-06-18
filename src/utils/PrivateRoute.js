@@ -8,7 +8,7 @@ export default function PrivateRoute(){
     let {authTokens} = useContext(AuthContext);
      
     return (
-        !authTokens ? <Navigate to="/login" />    : <Outlet/> 
+        !authTokens ? <Navigate to="Dashboard/login" />    : <Outlet/> 
     )
    
 }

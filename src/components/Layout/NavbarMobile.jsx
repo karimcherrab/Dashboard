@@ -66,7 +66,7 @@ function NavbarMobile() {
         </div>
           <div className=" w-full py-5 flex justify-center items-center">
             <Link
-              to="/"
+              to="/Dashboard/"
               onClick={()=>{}}
               className=" justify-center items-center gap-4 ml-3 mt-4 flex text-xl font-extrabold tracking-tight text-slate-900"
             >

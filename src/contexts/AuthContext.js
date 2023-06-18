@@ -21,9 +21,9 @@ export const AuthProvider = ({ children }) => {
 
   let logoutUser = () => {
     setAuthTokens(null);
-    // setUser(null);
+  // setUser(null);
     Cookies.remove('token');
-    history("/login");
+    history("Dashboard/login");
   };
 
   const checkStatus= async ()=>{ 

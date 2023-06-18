@@ -131,21 +131,21 @@ function App() {
     <Routes>
               <Route element={<PrivateRoute />}>
 
-
-              <Route exact path="/category" element={<CategoryPage />} />
-              <Route exact path="/shop" element={<ShopPage />} />
+             
+              <Route exact path="/Dashboard/category" element={<CategoryPage />} />
+              <Route exact path="/Dashboard/shop" element={<ShopPage />} />
               
-              <Route exact path="/orders" element={<Orders />} />
-              <Route exact path="/product" element={<ProductList />} />
-              <Route exact path="/customers" element={<Customers />} />
-              <Route exact path="/customers" element={<Customers />} />
-              <Route exact path="/" element={<DashboardAdmin />} />
-              <Route exact path="/dashboard" element={<DashboardAdmin />} />
+              <Route exact path="/Dashboard/orders" element={<Orders />} />
+              <Route exact path="/Dashboard/product" element={<ProductList />} />
+              <Route exact path="/Dashboard/customers" element={<Customers />} />
+              <Route exact path="/Dashboard/customers" element={<Customers />} />
+              <Route exact path="/Dashboard/" element={<DashboardAdmin />} />
+              <Route exact path="/Dashboard" element={<DashboardAdmin />} />
 
               </Route>
               
               <Route element={<PrivateRoute2 />} >
-              <Route path="/login" element={<Login />} />
+              <Route path="/Dashboard/login" element={<Login />} />
       </Route>
              
               

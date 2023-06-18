@@ -16,27 +16,27 @@ export const linksPremium = [
         {
           name: 'Dashboard',
           icon: <FaLayerGroup />,
-          link:'dashboard'
+          link:'Dashboard'
         },
         {
           name: 'Category',
           icon: <CiGrid41/>,
-          link:'category'
+          link:'Dashboard/category'
         },
         {
           name: 'Shop',
           icon: <CiGrid41/>,
-          link:'shop'
+          link:'Dashboard/shop'
         },
         {
           name: 'Product',
           icon: <CiGrid41/>,
-          link:'product'
+          link:'Dashboard/product'
         },
         {
           name: 'Customers',
           icon: <RxPerson/>,
-          link:'customers'
+          link:'Dashboard/customers'
         },
        
        
